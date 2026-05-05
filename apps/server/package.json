@@ -1,0 +1,17 @@
+{
+  "name": "collab-server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "ws": "^8.20.0",
+    "yjs": "^13.6.30"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
